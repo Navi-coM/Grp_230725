@@ -1,0 +1,51 @@
+@import url('./vars.css');
+@import url('./normalize.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--main-font-size);
+    background: linear-gradient(#d6ecf0, #206b8b);
+    color: var(--main-color-text);
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    border-bottom: 1px solid #828282;
+    padding: 28px 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #828282;
+    transition: all 0.3s;
+}
+
+.menu__link:hover {
+    color: #070707;
+}
+
+.title_1 {
+    font-size: 1.4rem;
+}
