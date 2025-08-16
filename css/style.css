@@ -41,7 +41,9 @@ body {
     color: #828282;
     transition: all 0.3s;
 }
-
+.menu__link_dark {
+    color: #252f38;
+}
 .menu__link:hover {
     color: #070707;
 }
