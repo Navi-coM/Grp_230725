@@ -9,7 +9,7 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
     font-size: var(--main-font-size);
-    background: linear-gradient(#d6ecf0, #206b8b);
+    background: linear-gradient(164deg, #d6ecf0, #3f809c);
     color: var(--main-color-text);
 }
 
@@ -48,4 +48,17 @@ body {
 
 .title_1 {
     font-size: 1.4rem;
+}
+
+.section {
+    border: 1px solid #5098cb;
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+.title_2 {
+    color: #4a8daa;
+}
+.text {
+    color: #1b3c50;
 }
