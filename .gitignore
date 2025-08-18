@@ -1,4 +1,11 @@
 # Файли, які треба ігнорувати
 
 .vscode
-text.txt
+*.txt
+
+
+node_modules
+.env
+
+
+*.log
